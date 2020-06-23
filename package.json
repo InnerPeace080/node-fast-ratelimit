@@ -40,6 +40,16 @@
     "istanbul": "0.4.5",
     "coveralls": "2.13.1"
   },
+  "eslintConfig": {
+    "rules": {
+      "camelcase": "off",
+      "new-cap": "off",
+      "no-multi-str": "off",
+      "no-sync": "off",
+      "func-style": "off",
+      "no-invalid-this": "off"
+    }
+  },
   "keywords": [
     "ratelimit",
     "rate-limit",
