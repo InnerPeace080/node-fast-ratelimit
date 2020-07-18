@@ -413,7 +413,7 @@ describe('node-fast-ratelimit', () => {
       __Promise.all(promises_all)
         .then((remaining_tokens_list) => {
           done(
-            new Error('Limiter consume should not succeed at the end (reject)')
+            new Error(`Limiter consume should not succeed at the end (reject) ${remaining_tokens_list}`)
           );
           return;
         })
