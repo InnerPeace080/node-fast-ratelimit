@@ -275,8 +275,6 @@ describe('node-fast-ratelimit', () => {
         launchAsyncFlow(i);
       }
     });
-
-
   });
 
   describe('hasTokenSync method', () => {
